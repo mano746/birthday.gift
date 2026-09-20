@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday 🎂</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      font-family: "Poppins", Arial, sans-serif;
+      background: linear-gradient(135deg, #ff758c, #ff7eb3, #8e44ad);
+      color: white;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 650px;
+      padding: 45px 25px;
+      text-align: center;
+      border-radius: 30px;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+      animation: appear 1.2s ease;
+      z-index: 2;
+    }
+
+    .cake {
+      font-size: 75px;
+      animation: bounce 1.5s infinite;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: clamp(2.5rem, 10vw, 5rem);
+      line-height: 1.1;
+      margin-bottom: 15px;
+      text-shadow: 0 0 20px rgba(255,255,255,0.6);
+    }
+
+    h2 {
+      font-size: clamp(1.5rem, 6vw, 2.5rem);
+      margin-bottom: 20px;
+      color: #fff5a5;
+    }
+
+    p {
+      font-size: clamp(1rem, 4vw, 1.2rem);
+      line-height: 1.7;
+      margin: 0 auto 25px;
+      max-width: 520px;
+    }
+
+    .button {
+      border: none;
+      padding: 14px 28px;
+      border-radius: 50px;
+      background: white;
+      color: #e84393;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      transform: scale(1.08);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    .button:active {
+      transform: scale(0.95);
+    }
+
+    /* Floating hearts */
+    .heart {
+      position: fixed;
+      bottom: -30px;
+      font-size: 25px;
+      animation: floatUp linear forwards;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    @keyframes floatUp {
+      from {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+      }
+      to {
+        transform: translateY(-110vh) rotate(360deg);
+        opacity: 0;
+      }
+    }
+
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-15px);
+      }
+    }
+
+    @keyframes appear {
+      from {
+        opacity: 0;
+        transform: scale(0.7) translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+      }
+    }
+
+    /* Confetti */
+    .confetti {
+      position: fixed;
+      width: 10px;
+      height: 18px;
+      top: -30px;
+      z-index: 10;
+      pointer-events: none;
+      animation: confettiFall linear forwards;
+    }
+
+    @keyframes confettiFall {
+      0% {
+        transform: translateY(0) rotate(0deg);
+      }
+
+      100% {
+        transform: translateY(110vh) rotate(720deg);
+      }
+    }
+
+    @media (max-width: 500px) {
+      .container {
+        padding: 35px 18px;
+        border-radius: 22px;
+      }
+
+      .cake {
+        font-size: 60px;
+      }
+
+      p {
+        line-height: 1.6;
+      }
+
+      .button {
+        padding: 13px 24px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="cake">🎂</div>
+
+    <h1>Happy Birthday!</h1>
+
+    <h2>Dear husband 💖</h2>
+
+    <p>
+      :🎂✨ 𝑯𝒂𝒑𝒑𝒚 𝑩𝒊𝒓𝒕𝒉𝒅𝒂𝒚, 𝑴𝒆𝒓𝒊 𝑱𝒂𝒂𝒏… ❤️🥹 Aaj ka din mere liye sirf ek date nahi…
+Ye woh din hai jis din Allah ne is duniya ko meri sab se pyari khushi ata ki. 🤍
+🌹 Har saal tumhara birthday aayega…
+Lekin mere liye har birthday ye yaad dilayega ke meri zindagi ka sab se haseen hissa tum ho. ❤️💫 Kabhi kabhi sochta hoon…
+Itni pyari, itni masoom aur itni khaas insaan meri zindagi mein kaise aa gayi. 🥹
+🤲 Meri har dua mein tum ho…
+Aur meri har muskurahat ki wajah bhi tum hi ho. ❤️✨ Allah tumhari zindagi ko hamesha khushiyon se bhar de…
+Har aansu ko muskurahat mein badal de…
+Har dua qubool kare…
+Aur tumhein hamesha apni hifazat mein rakhe. Ameen. 🤍
+🌸 Agar kabhi meri zindagi ki koi sab se khoobsurat dua poochhi jaye…
+To mera jawab sirf “Tum.” ❤️🫶 Main wada to nahi karta ke zindagi hamesha aasaan hogi…
+Lekin ye zaroor chahta hoon ke har mushkil mein tumhare chehre ki muskurahat salamat rahe. 🌹
+💖 Aaj tumhara din hai…
+Is liye dil se bas itna kehna chahta hoon…
+Thank you… meri zindagi mein aane ke liye.
+🎁 Happy Birthday, meri duniya… meri khushi… meri dua… meri jaan. ❤️🎂✨
+May Allah bless you with endless happiness, peace, success and a lifetime full of beautiful moments. I pray that your smile never fades. 🤍🌙
+I hope this birthday becomes the beginning of the most beautiful year of your life. 🌹
+❤️Once Again… Happy Birthday, Meri Jaan! 🥹🎉🎂❤️:::Happy birthday My love 🥺❤️you are most favorite person in my life ❤️This day l wanna thank you for beingg my life🫂❤️‍🩹l wanted to make you feel special😚and try to make Aa you more happiest you're the best l've in my life🥺💗 love you so much 🥺I'll loveyouh forever 🥺And I'll loveyouh alwayyss,😚❤️‍🩹And you will forever be mine and l will forever be yours 💋🫂 Once aginnn Happy birthday🥺🫶❤️‍🩹Finally !!
+“It’s your **‘پسندیدہ شخص’** Birthday”
+Happiest Birthday ...!! 😭💗🌷🫶🎀🤍
+
+Allah meri is pyaari si jaan ko hamesha khush rakhe, sehat aur lambi zindagi ata farmaye, har buri nazar se bachaye aur apki har achi dua qubool farmaye. Apki zindagi mein kabhi kisi cheez ki kami na ho, har naya saal apke liye pehle se zyada khubsurat ho aur apki har birthday pe apke chehre ki smile aur bhi zyada bright ho !! 🥺🫀💪🏻🌸💕🫂💞
+
+“Once Again Happy Birthday”
+🥺🌷💪🏻💕🌸HAPPIEST BIRTHDAY TO THE ONE WHO OWNS MY HEART 💗🫶
+
+تم میرے لیے بہت خاص ہو،
+تم وہ واحد شخص ہو جس کے لیے مجھے سمجھنے میں کوئی اعتراض نہیں،
+صرف تم ہو جس سے بات کرتے ہوئے میں کبھی تھک نہیں سکتی۔
+تمہارا خیال ہی میرے لبوں پر مسکراہٹ بکھیرتا ہے۔
+تم وہ واحد شخص ہو جسے مجھے کھونے کا ڈر رہتا ہے،
+تم وہ شخص ہو جس کے ساتھ مجھے اپنی ہر خواہش پوری کرنے کی خواہش ہے۔ 💗
+
+Happy Birthday to the most favorite person in my life.
+I don't know where to start because I have so much to say.
+Today is your birthday, and I hope it's the best day of your life.
+May you relax, smile, and enjoy every beautiful moment. 💕🫂
+
+**I LOVE YOU SO MUCH.** 🎀🫶💙💛
+
+میں تم سے بہت محبت کرتی ہوں، میں چاہتی ہوں دنیا کے سارے رنگ تمہاری آنکھوں میں بھر دوں۔
+اپنی ساری محبت تم پر قربان کر دوں، تمہیں اپنی چاہت کا اک ٹکڑا وار دوں۔ ❤️
+
+Even when we argue, I realize I can't imagine my life without you.
+I'm grateful to have someone with whom I can share everything without the fear of being judged. 🥺💗
+
+تم سے تم تک ہی میری دنیا ہے۔ ❤️
+
+You are someone I can always count on blindly.
+Till my last breath, I pray that your life is filled with happiness, peace, success, good health, and endless love. ❤️🕊️
+
+**I LOVE YOU SO MUCH. I LOVE YOU MORE THAN WORDS COULD EVER EXPRESS.** ❤️🥺🕊️🌍 ✨
+    </p>
+
+    <button class="button" onclick="celebrate()">
+      🎉 Celebrate!
+    </button>
+  </div>
+
+  <script>
+    const colors = [
+      "#ff4757",
+      "#ffd32a",
+      "#05c46b",
+      "#00d2d3",
+      "#5f27cd",
+      "#ff6b81",
+      "#ffffff"
+    ];
+
+    function createConfetti(amount = 150) {
+      for (let i = 0; i < amount; i++) {
+        const confetti = document.createElement("div");
+
+        confetti.classList.add("confetti");
+
+        confetti.style.left = Math.random() * 100 + "vw";
+        confetti.style.backgroundColor =
+          colors[Math.floor(Math.random() * colors.length)];
+
+        confetti.style.width = Math.random() * 8 + 6 + "px";
+        confetti.style.height = Math.random() * 12 + 8 + "px";
+
+        confetti.style.animationDuration =
+          Math.random() * 3 + 3 + "s";
+
+        confetti.style.animationDelay =
+          Math.random() * 1.5 + "s";
+
+        document.body.appendChild(confetti);
+
+        setTimeout(() => {
+          confetti.remove();
+        }, 6000);
+      }
+    }
+
+    function createHeart() {
+      const heart = document.createElement("div");
+
+      heart.classList.add("heart");
+      heart.innerHTML = ["💖", "💕", "💗", "💝", "❤️"][
+        Math.floor(Math.random() * 5)
+      ];
+
+      heart.style.left = Math.random() * 100 + "vw";
+      heart.style.animationDuration = Math.random() * 3 + 4 + "s";
+
+      document.body.appendChild(heart);
+
+      setTimeout(() => {
+        heart.remove();
+      }, 7000);
+    }
+
+    function celebrate() {
+      createConfetti(250);
+
+      // Extra celebration burst
+      setTimeout(() => createConfetti(150), 700);
+      setTimeout(() => createConfetti(150), 1400);
+    }
+
+    // Start confetti automatically
+    window.addEventListener("load", () => {
+      createConfetti(180);
+
+      // Floating hearts
+      setInterval(createHeart, 700);
+    });
+  </script>
+
+</body>
+</html>
